@@ -1,33 +1,29 @@
 .player {
-    min-height: 100vh;
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    padding: 40px 20px;
-    box-sizing: border-box;
-  }
-  
-  .player iframe {
-    width: 90%;
-    max-width: 900px;
-    height: 500px;
-    border: none;
-    border-radius: 12px;
-  }
-  
-  .back-arrow {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    width: 40px;
-    cursor: pointer;
-  }
-  
-  .playerInfo {
-    color: white;
-    margin-top: 20px;
-    text-align: center;
-  }
+  height: 100vh;
+  width: 100vw;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.player iframe {
+  border-radius: 12px;
+  max-width: 100%;
+}
+
+.player img {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 40px;
+  cursor: pointer;
+}
+
+.playerInfo {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
