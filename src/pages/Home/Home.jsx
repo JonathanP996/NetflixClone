@@ -5,7 +5,7 @@ import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 import HeroImg from '../../assets/hero_banner.jpg';
 import HeroTitle from '../../assets/hero_title.png';
-import PlayIcon from '../../assets/Play_icon.png';
+import PlayIcon from '../../assets/play_icon.png';
 import InfoIcon from '../../assets/info_icon.png';
 import TitleCards from '../../components/Titlebar/Titlebar';
 import Modal from '../../components/Modals/Modals';
